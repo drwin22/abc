@@ -20,7 +20,9 @@ summary(cars)
 ```
 
 ## Including Plots
-
+```{r cars}
+boxplot(cars$speed, cars$dist)
+```
 You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
